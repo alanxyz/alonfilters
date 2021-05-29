@@ -1,0 +1,12 @@
+[Alan's filters]
+! Title: Alan's filters
+
+! Block shit on Discord 
+||discord.com/api/*/users/@me/billing/*
+||discord.com/store
+||discord.com/api/v9/invites/*
+||status.discord.com/api/*/*
+||discord.com/api/*/users/@me/library
+||discord.com/api/*/stage-instances
+||discord.com/api/*/users/*/profile
+||discord.com/api/*/users/*/notes/*
