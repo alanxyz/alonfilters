@@ -1,12 +1,50 @@
 [Alan's filters]
 ! Title: Alan's filters
 
-! Block shit on Discord 
+# alnn.xyz™
 ||discord.com/api/*/users/@me/billing/*
 ||discord.com/store
-||discord.com/api/v9/invites/*
-||status.discord.com/api/*/*
+||discord.com/api/*/users/@me/guilds/premium/subscription-slots
+||status.discord.com/api/*/
 ||discord.com/api/*/users/@me/library
 ||discord.com/api/*/stage-instances
 ||discord.com/api/*/users/*/profile
-||discord.com/api/*/users/*/notes/*
+||discord.com/api/*/users/*/notes/
+||discord.com/api/*/applications/
+# don't want any sound effects, voice chat still works
+||discord.com/*.mp3
+||discord.com/*.ogg
+||discord.com/*.wav
+||discord.com/*.aac
+# lol block avatars 
+||cdn.discordapp.com/avatars/
+# block woff (fonts) on discord
+||discord.com/assets/*.woff
+
+# block third party font
+*$font,third-party
+
+# fuck spotify, discord requests it constantly for some reason
+||api.spotify.com^
+||spotify.com^
+||dealer.spotify.com^
+
+# cosmetic filters for discord
+discord.com##div.clickable-3rdHwn.iconWrapper-2OrFZ1:nth-of-type(5)
+discord.com##.toolbar-1t6TWx > .anchorUnderlineOnHover-2ESHQB.anchor-3Z-8Bb
+discord.com##div.clickable-3rdHwn.iconWrapper-2OrFZ1:nth-of-type(1)
+discord.com##.invite-OjTXrW.channelNotice-1-XFjC
+discord.com##div.containerDefault--pIXnN > .wrapper-2jXpOf.iconVisibility-sTNpHs > .content-1x5b-n > .mainContent-u_9PKf > .iconContainer-1BBaeJ
+discord.com##div.containerDefault--pIXnN > div > .wrapper-2jXpOf.iconVisibility-sTNpHs > .content-1x5b-n > .mainContent-u_9PKf > .iconContainer-1BBaeJ
+discord.com##.nowPlayingColumn-2sl4cE
+discord.com###private-channels-0 > .layout-2DM8Md
+discord.com###private-channels-2 > .layout-2DM8Md
+discord.com##.guildSeparator-33mFX6
+discord.com##.scrollerBase-289Jih.none-2Eo-qx.scroller-1Bvpku > div.listItem-GuPuDH > .listItemWrapper-KhRmzM > .wrapper-25eVIn.wrapperSimple-19ogV2 > .svg-1X37T1 > foreignObject > .circleButtonBase-2DCxIZ.circleIconButton-1QV--U
+discord.com##.sidebar-2K8pFh:style(width: 150px !important)
+discord.com##.colorNotification-GG3eAb.notice-3bPHh-
+discord.com##.cozy-3raOZG.wrapper-2a6GCs:style(padding-left: 2rem !important; padding-right: 2rem !important;)
+discord.com##.form-2fGMdU:style(padding-left: 2rem !important; padding-right: 2rem !important;)
+discord.com##.scroller-1Bvpku:style(padding: 0px !important;)
+discord.com##.children-19S4PO > .iconWrapper-2OrFZ1 > .icon-22AiRD
+discord.com##.header-2V-4Sw:style(padding: 2px !important;)
