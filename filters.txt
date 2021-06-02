@@ -48,3 +48,12 @@ discord.com##.form-2fGMdU:style(padding-left: 2rem !important; padding-right: 2r
 discord.com##.scroller-1Bvpku:style(padding: 0px !important;)
 discord.com##.children-19S4PO > .iconWrapper-2OrFZ1 > .icon-22AiRD
 discord.com##.header-2V-4Sw:style(padding: 2px !important;)
+discord.com##.headerTop-2y3V6H:style(padding: 4px !important;)
+discord.com##.wrapper-3t9DeA.avatar-22FtUu
+discord.com##.banner-2QYc2d.profileBanner-33-uE1
+discord.com##.wrapper-3t9DeA.avatar-SmRMf2
+discord.com##.content-1x5b-n:style(border-radius: 1px !important;)
+discord.com##.headerTop-2y3V6H:style(border-bottom: 0px !important;)
+discord.com##.marginTop8-1DLZ1n.protip-YaFfgO
+discord.com##.note-3HfJZ5
+discord.com##div.size12-3R0845.bodyTitle-Y0qMQz:nth-of-type(3)
