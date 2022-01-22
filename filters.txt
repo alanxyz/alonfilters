@@ -16,8 +16,6 @@
 ||discord.com/*.ogg
 ||discord.com/*.wav
 ||discord.com/*.aac
-# lol block avatars 
-||cdn.discordapp.com/avatars/
 # block woff (fonts) on discord
 ||discord.com/assets/*.woff
 
